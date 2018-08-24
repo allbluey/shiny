@@ -1,0 +1,42 @@
+#dashboard - layout simples
+
+#função DashboardPage() - conterá as funções dashboardHeader(), dashboardSidebar(), dashboardBody()
+# tais funções fazem parte da estrutura da página. De modo simples. teremos algo assim:
+
+dashboardPage(
+  dashboardHeader(),
+  dashboardSidebar(),
+  dashboardBody()
+)
+
+#cada função terá seus componentes, mas vamos explanar o objetivo de cada uma:
+#dashboardSidebar
+
+#Essa função constroi a lateral de opções da página. Quais serão as abas a ser construídas.
+#vamos chamar cada função 
+
+sidebar <- dashboardSidebar(
+               #dentro da função dashboarSidebar temos o uso da função sidebarMenu(), onde serão defidas os menus da página
+               sidebarMenu(
+                     menuItem("nome da aba", tabName = "nome para ser usado na sáida(output)", icon = icon("ícone que pode aparecer 
+                                                                                          do lado da página")),
+    #menuItem() é uma função usada dentro do sidebarMenu para organizar o nome de cada aba e pode ser usada mais de uma vez,
+    #caso seu app tenha 3 trẽs, uma com uma tabela, outra com gráficos, e outra com informações, usara a função 
+    #para designar o nome de cada
+  )
+)
+
+
+#com a explicação sobre as funções acima, seguimos para o corpo da função 
+#com a função dashboardBody() vamos dizer o que estará dentro de cada menu que construimos com as funções acima
+
+
+body <- dashboardBody(
+  #definiremos aqui quais serão os items do seu menu, portanto usaremos dentro dessa função a função tabItems()
+  tabItems(
+    #dentro dessa função colocaremos os itens do seu menu com a função tabItem() (uma função dentro da outra né, que saco)
+    tabItem(tabName = "qual o nome que você definiu a aba no tabName em menuItem() ? Ponha o primeiro aqui",
+            
+    )
+  )
+)
