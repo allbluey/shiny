@@ -1,0 +1,13 @@
+name: dadosfcm
+title:
+username:
+account: alexia
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 266445
+bundleId: 1199205
+url: https://alexia.shinyapps.io/dadosfcm/
+when: 1517318239.44207
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: fcm.R|plan2.xlsx|.RData|server.R|ui.R|www/myImage.png

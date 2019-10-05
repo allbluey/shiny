@@ -1,0 +1,13 @@
+name: shinyApp
+title: shinyApp
+username:
+account: alexia
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 266420
+bundleId: 1199110
+url: https://alexia.shinyapps.io/shinyApp/
+when: 1517315509.33163
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: app2.R|app3.R|app4.R|app5.R|app6.R|app7.R|app.R|cudemerda.R|fcm.R|plan2.xlsx|.RData|server.R|teste3.R|ui.R|www/myImage.png

@@ -1,0 +1,13 @@
+name: testes
+title: testes
+username:
+account: alexiatestes
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 268787
+bundleId: 1203053
+url: https://alexiatestes.shinyapps.io/testes/
+when: 1517501702.84903
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: cansei.R|fcm.R|.RData|server.R|shiny.R|ui.R|www/myImage.png
