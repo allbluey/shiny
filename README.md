@@ -1,4 +1,3 @@
-# Shiny
+# Shiny App
 
-Breve explicação sobre dashboards.
 https://alexia.shinyapps.io/dadosfcm/
